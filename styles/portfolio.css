@@ -1,0 +1,101 @@
+// <weight>: Use a value from 300 to 800
+// <uniquifier>: Use a unique and descriptive class name
+
+.open-sans-<uniquifier> {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+/* shared style */
+.text-primary {
+    color: #FD6E0A;
+}
+
+.dark-2{
+    color:#474747;
+}
+
+.btn-primary {
+    background-color: #FD6E0A;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 18px 35px;
+    border-radius: 5px;
+    border: none;
+}
+
+.header {
+    background-image: url('../images/developer.png'), url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+
+}
+
+/* Nav Styles */
+nav {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 230px 0 226px;
+}
+
+.nav-title {
+    font-size: 45px;
+    font-weight: 800;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin-right: 50px;
+}
+
+nav li a {
+    text-decoration: none;
+    font-size: 20px;
+}
+
+/* banner styles */
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 38px 0 226px;
+    
+}
+
+.banner-content {
+    max-width: 584;
+}
+
+.banner-greetings {
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.banner-title {
+    font-weight: bold;
+    font-size: 85px;
+}
+
+.banner-profile-pic {
+    width: 584;
+    height: 676;
+}
