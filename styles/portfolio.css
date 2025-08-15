@@ -19,6 +19,32 @@
 }
 
 /* shared style */
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+
+.sec-bg {
+    background-color: #fff8f3;
+}
+.section-title {
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+}
+
+.section-description {
+    font-size: 18px;
+    color: #757575;
+}
+
+body, html {
+  width: 100%;
+  height: 100%;
+  overflow-x: border-box;
+}
+
 .text-primary {
     color: #FD6E0A;
 }
@@ -41,6 +67,8 @@
     background-image: url('../images/developer.png'), url('../images/header_bg.png');
     background-repeat: no-repeat;
     background-position: top left, bottom right;
+    background-size: auto, auto;
+    background-color: #FFF8F3;
 
 }
 
@@ -102,4 +130,36 @@ nav li a {
 .banner-profile-pic {
     width: 584;
     height: 676;
+}
+/* main styles */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+main section h3 {
+    text-align: center;
+}
+
+main section p {
+    text-align: justify;
+}
+
+main section div p {
+    text-align: center;
+}
+.about {
+    border-radius: 10px;
+    padding: 131px 150px;
+    text-align: center;
+    margin-top: 130px;
+}
+
+.item-description {
+    font-weight: 600;
+}
+
+.about-items {
+    display: flex;
+    justify-content: space-around;
 }
